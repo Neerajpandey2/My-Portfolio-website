@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="title.png" type="image/png">
+    <title>My Portfolio</title>
+<!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- CSS link -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span><h3><img  class="m-1" src="title.png" id="titleImg">My Portfolio</h3></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto me-4">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="index.html">Home</a>
+              </li>
+
+ 
+              <div class="mo">
+                <!-- About me link -->
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#Aboutme" href="#">About me</a>
+                    </li>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Aboutme" tabindex="-1" aria-labelledby="AboutmeLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="AboutmeLabel">About me</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5> I am Neeraj pandey. i am from uttrakhand. i have completed my highschool in 2017 and In 2019
+                                        i completed my intermediate. In 2022, i completed my diploma in Information Technology.
+                                        Currently, i am pursuing my Btech degree and will passout in 2025.
+                                   </h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <a type="button" class="btn btn-primary" href="resumef.pdf">Know more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <li class="nav-item">
+                <a class="nav-link  fw-bold" href="skill.html">Skills</a>
+              </li>
+
+            
+<!-- Dropdown -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle  fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Project/Work
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="https://neerajpandey2.github.io/Rock-Paper-Scissor-game/">Rock-paper-scissor</a></li>
+      <li><a class="dropdown-item" href="https://neerajpandey2.github.io/Tic-tac-toe/">Tic-tac-toe</a></li>
+      <li><a class="dropdown-item" href="#">My-portfolio-website</a></li>
+      <li><a class="dropdown-item" href="#">Music-website</a></li>
+      <li><a class="dropdown-item" href="#">Online-Cab-Booking-frontend-web</a></li>
+      <li><a class="dropdown-item" href="#">Flipcart-clone</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><h5 class="dropdown-item">Not all links are available</h5></li>
+    </ul>
+  </li>
+  
+              <li class="nav-item"></li>
+                <a class="nav-link  fw-bold" href="resumef.pdf" target="_blank">Resume</a>
+              </li>
+
+              
+
+<!-- Contact with using modal -->
+              <li class="nav-item">
+                <a class="nav-link  fw-bold" data-bs-toggle="modal" data-bs-target="#Contact" href="#">Contact</a>
+             </li>
+<!-- modal for the contact link -->
+              <div class="modal fade" id="Contact" tabindex="-1" aria-labelledby="ContactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <h5>
+                         Email  -- np8650335794@gmail.com
+                    </h5>
+                    <h5>
+                         Insta.   -- <a href="https://www.instagram.com/__neeraj__pandit?igsh=Mmp3NnltanhnZzh0">__neeraj__pandit</a>
+                    </h5>
+                    <h5>
+                        Mob. --  72xxxxxxxx
+                    </h5>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                   
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Body section -->
+
+        <div class="container">
+            <div class="row " id="row1">
+            <div class="col-8 container-fluid d-flex flex-column justify-content-center align-items-center vh-100 px-4" id="cl1">
+                <img src="me.jpg" id="myimage" class="img-fluid rounded-circle">
+                <h1 class="my-4 text-dark">Neeraj pandey</h1>
+                <h5 class="text-dark"> Currently a B.tech student</h5>
+                <h6 class="text-light"> Hey! i am neeraj pandey . i have completed my diploma in 2022 and now i am pursuing my B.tech degree.
+                    i have done many projects in my running college journey. i have the intermediate 
+                    knownledge of HTML , CSS , Bootsrap and basic knownledge of JS , SQL , REACT.
+                </h6>
+            </div>
+            <div class="col-4 container-fluid vh-100 " id="cl2">
+        
+                <h1 class="text-center text-white">Links</h1>
+                <hr style="color: black ; height: 2px;">
+                        <h4 id="link1">Email  -- </h4>
+                        <h6 ><a href="https://mail.google.com/mail" class="text-white" >np8650335794@gmail.com </a> </h6>
+                        <br>
+                        <br>
+                        <h4>Linkdin -- </h4>
+                        <h6 ><a href="https://www.linkedin.com/in/neeraj-pandey-97a457294" class="text-white" >https://www.linkedin.com/in/neeraj-pandey-97a457294 </a> </h6>
+                        <br>
+                        <br>
+                        <h4>GitHub -- </h4>
+                        <h6><a href="https://www.hackerrank.com/profile/neerajpandeys108" class="text-white" >https://www.hackerrank.com/profile/neerajpandeys108 </a> </h6>
+                        <br>
+                        <br>
+                        <h4>Hacker rank -- </h4>
+                        <h6 ><a href="https://www.hackerrank.com/profile/neerajpandeys108" class="text-white" > https://www.hackerrank.com/profile/neerajpandeys108</a> </h6>
+             
+                
+                </div>
+            </div>
+        </div>
+
+<!-- bootsrap script  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

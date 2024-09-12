@@ -1,0 +1,43 @@
+
+.modal-backdrop {
+    position:unset !important;
+    /* when you use sticky-top and modal together but it cause of accuring screen iresponsible 
+    then you should use this property for a smooth modal working */
+  }
+body{
+
+    background: #A9A9A9;
+}
+#titleImg{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+#cl1{
+    background-color:#a86432;
+}
+#cl2{
+        background: #327da8;
+        overflow: hidden; 
+        word-wrap: break-word;
+          
+}
+#row1{
+        height:100vh;
+       
+}
+#myimage{
+    height:150px;
+    width:150px;
+    border: solid blue;
+   
+   
+}
+#miniDiv{
+          padding:2%;
+          background: red;
+}
+#link1{
+         margin-top:30%;
+}
+

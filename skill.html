@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="title.png" type="image/png">
+        <title>My Portfolio</title>
+    <!-- bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS link -->
+        <link rel="stylesheet" href="skill.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top" id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span><h3><img  class="m-1" src="title.png" id="titleImg">My Portfolio</h3></span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto me-4">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold text-dark" aria-current="page" href="index.html">Home</a>
+                  </li>
+    
+     
+                  <div class="mo">
+                    <!-- About me link -->
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#Aboutme" href="#">About me</a>
+                        </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="Aboutme" tabindex="-1" aria-labelledby="AboutmeLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="AboutmeLabel">About me</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5> I am Neeraj pandey. i am from uttrakhand. i have completed my highschool in 2017 and In 2019
+                                            i completed my intermediate. In 2022, i completed my diploma in Information Technology.
+                                            Currently, i am pursuing my Btech degree and will passout in 2025.
+                                       </h5>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <a type="button" class="btn btn-primary" href="resumef.pdf">Know more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+    
+                <li class="nav-item">
+                    <a class="nav-link  fw-bold" href="skill.html">Skills</a>
+                  </li>
+    
+                
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Project/Work
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="https://neerajpandey2.github.io/Rock-Paper-Scissor-game/">Rock-paper-scissor</a></li>
+          <li><a class="dropdown-item" href="https://neerajpandey2.github.io/Tic-tac-toe/">Tic-tac-toe</a></li>
+          <li><a class="dropdown-item" href="#">My-portfolio-website</a></li>
+          <li><a class="dropdown-item" href="#">Music-website</a></li>
+          <li><a class="dropdown-item" href="#">Online-Cab-Booking-frontend-web</a></li>
+          <li><a class="dropdown-item" href="#">Flipcart-clone</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><h5 class="dropdown-item">Not all links are available</h5></li>
+        </ul>
+      </li>
+      
+                  <li class="nav-item"></li>
+                    <a class="nav-link  fw-bold" href="resumef.pdf" target="_blank">Resume</a>
+                  </li>
+    
+                  
+    
+    <!-- Contact with using modal -->
+                  <li class="nav-item">
+                    <a class="nav-link  fw-bold" data-bs-toggle="modal" data-bs-target="#Contact" href="#">Contact</a>
+                 </li>
+    <!-- modal for the contact link -->
+                  <div class="modal fade" id="Contact" tabindex="-1" aria-labelledby="ContactLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <h5>
+                             Email  -- np8650335794@gmail.com
+                        </h5>
+                        <h5>
+                             Insta.   -- <a href="https://www.instagram.com/__neeraj__pandit?igsh=Mmp3NnltanhnZzh0">__neeraj__pandit</a>
+                        </h5>
+                        <h5>
+                            Mob. --  72xxxxxxxx
+                        </h5>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       
+                        </div>
+                    </div>
+                    </div>
+                </div>
+    
+    
+                </ul>
+              </div>
+            </div>
+          </nav>
+<!-- bootsrap grid for cards -->
+          <div class="container-fluid ">
+            <div class="row" id="gridForCards">
+              <div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center mb-3">
+                <!-- Bootsrap card1 -->
+    <div class="card" style="width: 18rem;">
+      <img src="skill.jpg" class="card-img-top img-fluid" alt="...">
+      <div class="card-body bg-warning">
+        <h5 class="card-title">Key skills</h5>
+        <p class="card-text">
+          <ul>
+
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootsrap</li>
+              <li>JavaScript</li>
+              <li>React</li>
+
+              
+          </ul>
+          
+      <a href="index.html" class="btn btn-primary">Home</a>
+      </div>
+    </div>
+              </div>
+              <div class="col-md-4 col-sm-12 mb-3 d-flex justify-content-center align-items-center mb-3">
+                <!-- Bootsrap card2 -->
+    <div class="card" style="width: 18rem;">
+        <img src="skill.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body bg-warning">
+          <h5 class="card-title">Other Skills</h5>
+          <p class="card-text">
+            <ul>
+                
+                <li>Ms word</li>
+                <li>Ms Excel</li>
+                <li>GitHub</li>
+                <li>Power Point</li>
+                <li>Xampp</li>
+            
+                
+            </ul>
+            
+        <a href="index.html" class="btn btn-primary">Home</a>
+        </div>
+      </div>
+              </div>
+              <div class="col-md-4 col-sm-12 mb-3 d-flex justify-content-center align-items-center mb-3">
+                <!-- Bootsrap card3 -->
+<div class="card" style="width: 18rem;">
+    <img src="skill.jpg" class="card-img-top img-fluid" alt="...">
+    <div class="card-body bg-warning">
+      <h5 class="card-title">Soft skills</h5>
+      <p class="card-text">
+        <ul>
+
+            <li>Good Communication</li>
+            <li>Leadership</li>
+            <li>Fast Learner</li>
+            <li>Time punctual</li>
+            <li>Good problem solving</li>
+            
+            
+        </ul>
+        
+    <a href="index.html" class="btn btn-primary">Home</a>
+    </div>
+    </div>
+    </div>
+
+
+
+
+          
+<!-- bootsrap script  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
